@@ -1,0 +1,75 @@
+@CHARSET "ISO-8859-1";
+
+	body{text-align:center;
+        background: url(imagenes/bola.jpg) fixed; 
+        background-size: 100% 100%;}
+    
+    h1 {font-family:rubik;
+        color:gold;
+        text-shadow: 2px 2px 4px #000000;
+        font-size:2.1em; }
+
+    a{text-decoration:none;}
+
+    table{border-spacing: 50px 0px;}
+
+    input[type=image] {width: 180px;  }
+
+    td{margin:3%;}
+    
+    span {font-size:2.2em;
+            font-family:rubik;
+            color:yellow;
+            text-shadow: 2px 2px 4px #000000; }
+
+    #euros{font-size:1.2em;
+            font-family:rubik;
+            color:yellow;
+            text-shadow: 2px 2px 4px #000000;
+            margin:5px; }
+
+    table{margin: 0 auto;}
+
+    #mensaje {font-size:2.2em;
+            width:40%;
+            margin: 0 auto;
+            color:gold;
+            text-shadow: 2px 2px 4px #000000;   
+            font-family:rubik;     }
+            
+    #boton_reiniciar{
+        margin:1%;
+        height: 29px;
+        font-weight: bold;
+        color:rgb(66, 66, 66);
+        border-radius: 9px;    }
+
+    #boton_reiniciar:hover{
+       color:black;
+       text-transform: uppercase;    }
+
+    #botonMostrarCartas {  
+        margin: 0.5% auto;
+        display:none;
+        background-color:salmon;
+        height: 29px;
+        font-weight: bold;
+        color:rgb(66, 66, 66);
+        border-radius: 9px;  }
+
+    #botonMostrarCartas:hover {  
+        color:black;
+       text-transform: uppercase;}
+
+    #botonNuevaPartida {  margin: 0.5% auto;
+            display:none; 
+            background-color:lightgreen; 
+            height: 29px;
+            font-weight: bold;
+            color:rgb(66, 66, 66);
+            border-radius: 9px;}
+
+    #botonNuevaPartida:hover {
+        color:black;
+       text-transform: uppercase;    }
+    

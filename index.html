@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="UTF-8">
+	<title>As de Oros Enrique Alcaraz</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel=stylesheet href="style.css" title="Estilos Examen JavaScript">
+	
+	<script type="text/javascript" src="scripts.js"></script>
+	
+</head>
+<body onload="f_iniciar();">
+
+    <h1>ENCUENTRA EL "AS DE OROS"</h1>
+
+    <button id="boton_reiniciar" onclick="window.location.href='index.html'">Reiniciar Juego</button>
+  
+    <br/>
+
+    <span>DINERO: </span><span id="dineroActual"></span><span id="euros">€</span>
+
+    <br/><br/>
+
+    <div style="overflow-x:auto;">
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <input type="image" id="0" name="cartas" src="imagenes/carta_reves.jpg" 
+                                    onclick="f_visualizarCarta(event);">
+                </td>
+                <td>
+                    <input type="image" id="1" name="cartas" src="imagenes/carta_reves.jpg" 
+                                    onclick="f_visualizarCarta(event);">
+                </td>
+                <td>
+                    <input type="image" id="2" name="cartas" src="imagenes/carta_reves.jpg" 
+                                    onclick="f_visualizarCarta(event);">
+                </td>
+            </tr>
+        </tbody>    
+    </table>  
+
+    <br/>
+
+    <input type="button" id="botonMostrarCartas" value="Mostrar Cartas" onclick="f_mostrarCartas();">
+    
+    <br/>
+
+    <input type="button" id="botonNuevaPartida" value="Jugar de nuevo" onclick="f_iniciar();">
+
+    <br/>  
+   
+    <div id="mensaje"></div>
+
+    <br/>
+    
+    </div>    
+    
+</body>
+</html>
